@@ -71,7 +71,7 @@ function renderTasks(tasks) {
     }
 
     html += `
-            <div class="row mb-2 p-0 task ${taskClass} ${
+            <div class="row mb-2 mx-0 p-0 task ${taskClass} ${
       item.completed ? "completed" : ""
     }">
                 <p class="col-sm">${item.name}</p>
